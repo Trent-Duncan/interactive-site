@@ -96,4 +96,36 @@ button:hover {
   
 }
 
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo on left, links on right */
+  align-items: center;
+  background-color: #333;
+  padding: 1rem 2rem;
+  color: white;
+}
 
+/* Remove list bullets and align items */
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+/* Space out the links */
+.nav-links li {
+  padding: 0 15px;
+}
+
+/* Link styling */
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #5700f9; /* Changes color on hover */
+}

@@ -88,6 +88,7 @@ button:hover {
   .gallery-container {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
+      "nav nav nav"
       "title title title"
       "image image image"
       "caption caption caption"
@@ -95,37 +96,22 @@ button:hover {
   }
   
 }
-
-/* Navbar container */
 .navbar {
-  display: flex;
-  justify-content: space-between; /* Logo on left, links on right */
-  align-items: center;
-  background-color: #333;
-  padding: 1rem 2rem;
-  color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 15px;
 }
 
-/* Remove list bullets and align items */
-.nav-links {
-  display: flex;
-  list-style: none;
-}
-
-/* Space out the links */
-.nav-links li {
-  padding: 0 15px;
-}
-
-/* Link styling */
-.nav-links a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  transition: color 0.3s ease;
-}
-
-/* Hover effect */
-.nav-links a:hover {
-  color: #5700f9; /* Changes color on hover */
+a:hover {
+    color: #ddd;
 }

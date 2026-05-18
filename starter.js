@@ -3,7 +3,7 @@
 // Project
 
 const images = ["dog1.jpg", "dog2.jpg", "dog3.jpg"];
-const captions = ["Small fluffy white dog laying on grass", "Smiling Dog", "Small little dog on back"];
+const captions = ["Small fluffy white dog laying on grass", "Smiling Dog", "Small little dog on it's back"];
 let currentIndex = 0;
 let slideInterval;
 let isPlaying = false;
